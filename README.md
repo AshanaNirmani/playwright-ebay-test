@@ -12,17 +12,15 @@ This project is an automated end-to-end test suite using **Playwright** to simul
 📁 Project Structure
 
 PLAYWRIGHTAUTOMATION/
-├── node_modules/
-├── tests/
-│ └── EbayPageTest.spec.js # Main test script
-├── tests-examples/
-│ └── demo-todo-app.spec.js # Default example from Playwright
-├── playwright.config.js # Playwright test configuration
-├── package.json # Project dependencies and scripts
-├── .gitignore # Git ignore rules
-├── product-page.html # (Optional) Static HTML for demo
-├── product-page.png # Screenshot or visual ref
-├── README.md # Project documentation
+node_modules/
+tests/ EbayPageTest.spec.js # Main test script
+tests-examples/demo-todo-app.spec.js # Default example from Playwright
+playwright.config.js # Playwright test configuration
+package.json # Project dependencies and scripts
+.gitignore # Git ignore rules
+product-page.html # (Optional) Static HTML for demo
+product-page.png # Screenshot or visual ref
+README.md Project documentation
 
 
 🧪 What This Test Does
